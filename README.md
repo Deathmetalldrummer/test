@@ -1,5 +1,9 @@
 # Плагины
 
+[Слайдеры](#Слайдеры)
+
+[Параллакс](#Параллакс)
+
 ### Слайдеры
 
 0. [Slick](http://kenwheeler.github.io/slick/) ([GitHub](https://github.com/kenwheeler/slick/))
@@ -20,15 +24,15 @@
 
 ### Параллакс
 
+0. [Parallax.js](http://matthew.wagerfield.com/parallax/) ([GitHub](https://github.com/wagerfield/parallax))
 0. [RELLAX](https://dixonandmoe.com/rellax/) ([GitHub](https://github.com/dixonandmoe/rellax/))
-0. [parallax.js](http://matthew.wagerfield.com/parallax/) ([GitHub](https://github.com/wagerfield/parallax))
-0. [Simple Parallax Scrolling parallax.js](http://pixelcog.github.io/parallax.js/) ([GitHub](https://github.com/pixelcog/parallax.js/))
-0. [Stellar.js](http://markdalgleish.com/projects/stellar.js/) ([GitHub](https://github.com/markdalgleish/stellar.js))
 0. [ScrollMagic](http://scrollmagic.io/) ([GitHub](https://github.com/janpaepke/ScrollMagic/))
-0. [skrollr](http://prinzhorn.github.io/skrollr/) ([GitHub](https://github.com/Prinzhorn/skrollr))
-0. [pagePiling](http://alvarotrigo.com/pagePiling/) ([GitHub](https://github.com/alvarotrigo/pagePiling.js))
-0. [multiScroll.js](http://alvarotrigo.com/multiScroll/) ([GitHub](https://github.com/alvarotrigo/multiscroll.js))
+0. [Stellar.js](http://markdalgleish.com/projects/stellar.js/) ([GitHub](https://github.com/markdalgleish/stellar.js))
+0. [PagePiling](http://alvarotrigo.com/pagePiling/) ([GitHub](https://github.com/alvarotrigo/pagePiling.js))
+0. [MultiScroll.js](http://alvarotrigo.com/multiScroll/) ([GitHub](https://github.com/alvarotrigo/multiscroll.js))
 0. [Super scroll orama](http://johnpolacek.github.io/superscrollorama/) ([GitHub](https://github.com/johnpolacek/superscrollorama))
+0. [Simple Parallax Scrolling parallax.js](http://pixelcog.github.io/parallax.js/) ([GitHub](https://github.com/pixelcog/parallax.js/))
+0. [Skrollr](http://prinzhorn.github.io/skrollr/) ([GitHub](https://github.com/Prinzhorn/skrollr))
 0. [Parallaxie](http://static.theultrasoft.com/parallaxie/demo/) ([GitHub](https://github.com/TheUltrasoft/Parallaxie))
 0. [Enllax](http://mmkjony.github.io/enllax.js/) ([GitHub](https://github.com/mmkjony/enllax.js))
 0. [jInvertScroll](http://www.pixxelfactory.net/jInvertScroll/) ([GitHub](https://github.com/pixxelfactory/jInvertScroll))
