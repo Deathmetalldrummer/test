@@ -4,6 +4,25 @@
 
 [Параллакс](#Параллакс)
 
+[Сетки (Grid)](#Сетки (Grid))
+
+[Аккордеон](#Аккордеон)
+
+
+
+### Аккордеон
+
+0. [zAccordion](https://natearmagost.github.io/zaccordion/) ([GitHub](https://github.com/natearmagost/zAccordion/))
+0. [vAccordion](http://lukaszwatroba.github.io/v-accordion/) ([GitHub](https://github.com/LukaszWatroba/v-accordion))
+0. [Paper Collapse](https://bbo-code.com/components/paper-collapse) ([GitHub](https://github.com/alexander-ruehle/paper-collapse))
+0. [Slinky](http://slinky.iclanzan.com/) ([GitHub](https://github.com/iclanzan/slinky))
+0. [Zozo accordion](http://zozoui.com/accordion/)
+
+
+
+
+
+
 ### Слайдеры
 
 0. [Slick](http://kenwheeler.github.io/slick/) ([GitHub](https://github.com/kenwheeler/slick/))
@@ -22,6 +41,7 @@
 
 
 
+
 ### Параллакс
 
 0. [Parallax.js](http://matthew.wagerfield.com/parallax/) ([GitHub](https://github.com/wagerfield/parallax))
@@ -36,3 +56,12 @@
 0. [Parallaxie](http://static.theultrasoft.com/parallaxie/demo/) ([GitHub](https://github.com/TheUltrasoft/Parallaxie))
 0. [Enllax](http://mmkjony.github.io/enllax.js/) ([GitHub](https://github.com/mmkjony/enllax.js))
 0. [jInvertScroll](http://www.pixxelfactory.net/jInvertScroll/) ([GitHub](https://github.com/pixxelfactory/jInvertScroll))
+
+
+
+
+
+
+### Сетки (Grid)
+
+0. [Gridlex](http://gridlex.devlint.fr/index.html) ([GitHub](https://github.com/devlint/gridlex))
