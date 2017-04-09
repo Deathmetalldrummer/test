@@ -18,7 +18,7 @@
 
 [Табы](#Табы)
 
-[Scrollbar](Scrollbar)
+[Scrollbar](#Scrollbar)
 
 
 <!-- 0. []() ([GitHub]()) -->
