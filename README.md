@@ -1,13 +1,27 @@
 # Плагины
 
+[Аккордеон](#Аккордеон)
+
 [Слайдеры](#Слайдеры)
 
 [Параллакс](#Параллакс)
 
-[Сетки (Grid)](#Сетки)
+[Grid](#Grid)
 
-[Аккордеон](#Аккордеон)
+[Графики](#Графики)
 
+[Dialog](#Dialog)
+
+[Progress](#Progress)
+
+[Календарь](#Календарь)
+
+[Табы](#Табы)
+
+[Scrollbar](#Scrollbar)
+
+
+<!-- 0. []() ([GitHub]()) -->
 
 
 ### Аккордеон
@@ -62,6 +76,60 @@
 
 
 
-### Сетки (Grid)
+### Grid
 
 0. [Gridlex](http://gridlex.devlint.fr/index.html) ([GitHub](https://github.com/devlint/gridlex))
+0. [GridLayout](https://ghinda.net/gridlayout/) ([GitHub](https://github.com/ghinda/gridlayout))
+0. [Minigrid](http://minigrid.js.org/) ([GitHub](https://github.com/henriquea/minigrid))
+0. [Avalanche](http://colourgarden.net/avalanche/) ([GitHub](https://github.com/colourgarden/avalanche))
+0. [Layout Grid](https://clippings.github.io/layout-grid/) ([GitHub](https://github.com/clippings/layout-grid))
+0. [Gridly](http://ionicabizau.github.io/gridly/) ([GitHub](https://github.com/IonicaBizau/gridly/))
+0. [Lost Grid](http://lostgrid.org/) ([GitHub](https://github.com/peterramsing/lost))
+0. [Packery](http://packery.metafizzy.co/) ([GitHub](https://github.com/metafizzy/packery))
+0. [Isotope](http://isotope.metafizzy.co/) ([GitHub](https://github.com/metafizzy/isotope))
+0. [Salvattore](http://salvattore.com/) ([GitHub](http://github.com/rnmp/salvattore))
+0. [jPList](http://jplist.com/) ([GitHub](https://github.com/1rosehip/jplist))
+0. [Flex](http://www.jsonenglish.com/projects/flex/) ([GitHub](https://github.com/jasonenglish/jquery-flex/))
+0. [MasonJS](http://masonjs.com/) ([GitHub](https://github.com/DrewDahlman/Mason))
+0. [jsGrid](http://js-grid.com/) ([GitHub](https://github.com/tabalinas/jsgrid))
+
+
+
+
+### Графики
+
+0. [Chartist.js](https://gionkunz.github.io/chartist-js/) ([GitHub](https://github.com/gionkunz/chartist-js))
+0. [Chart.js](http://www.chartjs.org/) ([GitHub](https://github.com/chartjs/Chart.js))
+0. [C3.js](http://c3js.org/) ([GitHub](https://github.com/c3js/c3))
+0. [Vanilla-line-chart](https://github.com/n3-charts/line-chart-vanilla) ([GitHub](https://github.com/n3-charts/line-chart-vanilla))
+0. [N3-charts](http://n3-charts.github.io/line-chart/) ([GitHub](https://github.com/n3-charts/line-chart))
+0. [Morris.js](http://morrisjs.github.io/morris.js/) ([GitHub](https://github.com/morrisjs/morris.js))
+0. [Dc.js](https://dc-js.github.io/dc.js/) ([GitHub](https://github.com/dc-js/dc.js))
+0. [Vega](https://vega.github.io/vega/) ([GitHub](https://github.com/vega/vega))
+0. [Plotly.js](https://plot.ly/javascript/) ([GitHub](https://github.com/plotly/plotly.js))
+0. [FusionCharts](http://www.fusioncharts.com/)
+0. [Highcharts](http://www.highcharts.com/)
+0. [Amcharts](https://www.amcharts.com/)
+
+
+
+
+### Табы
+
+0. [TabTab.js](http://tabtab.be/) ([GitHub](https://github.com/gijsroge/tabtab.js))
+0. [Zozo tabs](http://zozoui.com/tabs/)
+0. [Tabslet](http://vdw.github.io/Tabslet/) ([GitHub](https://github.com/vdw/Tabslet))
+0. [EasyTabs.js](https://os.alfajango.com/easytabs/) ([GitHub](https://github.com/JangoSteve/jQuery-EasyTabs))
+
+
+
+
+### Scrollbar
+
+0. [Optiscroll](http://albertogasparin.github.io/Optiscroll/) ([GitHub](https://github.com/albertogasparin/Optiscroll))
+0. [perfect-scrollbar](https://noraesae.github.io/perfect-scrollbar/) ([GitHub](https://github.com/noraesae/perfect-scrollbar))
+0. [jQuery Scrollbar](https://gromo.github.io/jquery.scrollbar/) ([GitHub](https://github.com/gromo/jquery.scrollbar/))
+0. [fakeScroll](http://yaireo.github.io/fakescroll/) ([GitHub](https://github.com/yairEO/fakescroll))
+0. [Scrollator](http://opensource.faroemedia.com/scrollator/) ([GitHub](https://github.com/FaroeMedia/scrollator))
+0. [flexible-scrollbar](http://ayeressian.github.io/flexible-scrollbar/) ([GitHub](https://github.com/ayeressian/flexible-scrollbar))
+0. [Scrollbox](https://invis1ble.github.io/scrollbox/) ([GitHub](https://github.com/Invis1ble/scrollbox))
