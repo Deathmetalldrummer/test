@@ -4,22 +4,29 @@
 
 [Слайдеры](#Слайдеры)
 
-[Параллакс](#Параллакс)
+[Табы](#Табы)
 
 [Сетка](#Сетка)
 
-[Табы](#Табы)
-
 [Графики](#Графики)
+
+[Параллакс](#Параллакс)
 
 [Скроллбар](#Скроллбар)
 
-
-
-
 [Окна](#Окна)
+
 [Прогресс](#Прогресс)
+
 [Календарь](#Календарь)
+
+[Таблицы](#Таблицы)
+
+
+
+
+
+
 
 
 <!-- 0. []() ([GitHub]()) -->
@@ -121,3 +128,73 @@
 0. [Scrollator](http://opensource.faroemedia.com/scrollator/) ([GitHub](https://github.com/FaroeMedia/scrollator))
 0. [flexible-scrollbar](http://ayeressian.github.io/flexible-scrollbar/) ([GitHub](https://github.com/ayeressian/flexible-scrollbar))
 0. [Scrollbox](https://invis1ble.github.io/scrollbox/) ([GitHub](https://github.com/Invis1ble/scrollbox))
+
+
+
+
+
+
+
+### Окна
+
+0. [Bootbox.js](http://bootboxjs.com/) ([GitHub](https://github.com/makeusabrew/bootbox))
+0. [alertify.js](http://fabien-d.github.io/alertify.js/) ([GitHub](https://github.com/fabien-d/alertify.js))
+0. [AlertifyJS](http://alertifyjs.com/) ([GitHub](https://github.com/MohammadYounes/AlertifyJS))
+0. [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) ([GitHub](https://github.com/dimsemenov/Magnific-Popup))
+0. [vex](http://github.hubspot.com/vex/) ([GitHub](http://github.com/HubSpot/vex))
+0. [easyModal.js](http://flaviusmatis.github.io/easyModal.js/) ([GitHub](https://github.com/flaviusmatis/easyModal.js))
+0. [leanModal](http://leanmodal.finelysliced.com.au/) ([GitHub](https://github.com/FinelySliced/leanModal.js))
+0. [jQuery Modal](http://jquerymodal.com/) ([GitHub](http://github.com/kylefox/jquery-modal))
+0. [IZIMODAL](http://izimodal.marcelodolce.com/) ([GitHub](https://github.com/dolce/iziModal))
+0. [jBox](https://stephanwagner.me/jBox) ([GitHub](https://github.com/StephanWagner/jBox))
+
+
+
+
+
+
+
+### Прогресс
+
+0. [Progress bar.js](https://kimmobrunfeldt.github.io/progressbar.js/) ([GitHub](https://github.com/kimmobrunfeldt/progressbar.js))
+0. [Pace](http://github.hubspot.com/pace/docs/welcome/) ([GitHub](http://github.com/HubSpot/PACE))
+0. [NProgress.js](http://ricostacruz.com/nprogress/) ([GitHub](https://github.com/rstacruz/nprogress/))
+0. [ProgressJs](http://usablica.github.io/progress.js/) ([GitHub](https://github.com/usablica/progress.js/))
+0. [jquery-circle-progress](http://kottenator.github.io/jquery-circle-progress/) ([GitHub](https://github.com/kottenator/jquery-circle-progress))
+0. [jQuery-svg-progress](http://tsumbaluk.in.ua/plugins/jquery-svg-progress) ([GitHub](https://github.com/rodan888/jQuery-svg-progress))
+0. [LoadGo](http://franverona.com/loadgo/) ([GitHub](https://github.com/franverona/loadgo))
+0. [jQMeter](http://www.gerardolarios.com/plugins-and-tools/jqmeter/#demo) ([GitHub](https://github.com/glarios/jQMeter))
+
+
+
+
+### Календарь
+
+0. [Rome](https://bevacqua.github.io/rome/) ([GitHub](https://github.com/bevacqua/rome))
+0. [PickMeUp](http://nazar-pc.github.io/PickMeUp/) ([GitHub](https://github.com/nazar-pc/PickMeUp))
+0. [flatpickr](https://github.com/chmln/flatpickr) ([GitHub](https://chmln.github.io/flatpickr/))
+0. [CLNDR.js](http://kylestetz.github.io/CLNDR/) ([GitHub](http://github.com/kylestetz/CLNDR))
+0. [FullCalendar](https://fullcalendar.io/)
+0. [monthly.js](http://kthornbloom.com/monthly/) ([GitHub](https://github.com/kthornbloom/Monthly))
+0. [Calendario](https://github.com/codrops/Calendario)
+0. [dhtmlxCalendar](https://dhtmlx.com/docs/products/dhtmlxCalendar/)
+0. [Pikaday](https://dbushell.com/Pikaday/) ([GitHub](https://github.com/dbushell/Pikaday))
+0. [pickadate.js](http://amsul.ca/pickadate.js/) ([GitHub](http://github.com/amsul/pickadate.js))
+
+
+
+
+
+### Таблицы
+
+0. [Dynatable](https://www.dynatable.com/) ([GitHub](https://github.com/fooplugins/FooTable))
+0. [Vanilla-DataTables](http://mobius.ovh/docs/vanilla-datatables/pages/demos) ([GitHub](https://github.com/fooplugins/FooTable))
+0. [tablesort](http://tristen.ca/tablesort/demo/) ([GitHub](https://github.com/fooplugins/FooTable))
+0. [Clusterize.js](https://clusterize.js.org/) ([GitHub](https://github.com/fooplugins/FooTable))
+0. [Dynamic Table](http://code.keylimebox.org/dynamic-table/) ([GitHub](https://github.com/fooplugins/FooTable))
+0. [resTables](https://codefog.github.io/restables/) ([GitHub](https://github.com/fooplugins/FooTable))
+0. [Jexcel](http://bossanova.uk/jexcel) ([GitHub](https://github.com/fooplugins/FooTable))
+0. [FixedHeaderTable](http://www.fixedheadertable.com/) ([GitHub](https://github.com/fooplugins/FooTable))
+0. [Tabulator](http://olifolkerd.github.io/tabulator/) ([GitHub](https://github.com/fooplugins/FooTable))
+0. [jQuery-KingTable](https://github.com/RobertoPrevato/jQuery-KingTable) ([GitHub](https://github.com/RobertoPrevato/jQuery-KingTable))
+0. [FooTable](http://fooplugins.github.io/FooTable/) ([GitHub](https://github.com/fooplugins/FooTable))
