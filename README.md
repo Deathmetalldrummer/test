@@ -6,19 +6,20 @@
 
 [Параллакс](#Параллакс)
 
-[Grid](#Grid)
-
-[Графики](#Графики)
-
-[Dialog](#Dialog)
-
-[Progress](#Progress)
-
-[Календарь](#Календарь)
+[Сетка](#Сетка)
 
 [Табы](#Табы)
 
-[Scrollbar](#Scrollbar)
+[Графики](#Графики)
+
+[Скроллбар](#Скроллбар)
+
+
+
+
+[Окна](#Окна)
+[Прогресс](#Прогресс)
+[Календарь](#Календарь)
 
 
 <!-- 0. []() ([GitHub]()) -->
@@ -31,10 +32,6 @@
 0. [Paper Collapse](https://bbo-code.com/components/paper-collapse) ([GitHub](https://github.com/alexander-ruehle/paper-collapse))
 0. [Slinky](http://slinky.iclanzan.com/) ([GitHub](https://github.com/iclanzan/slinky))
 0. [Zozo accordion](http://zozoui.com/accordion/)
-
-
-
-
 
 
 ### Слайдеры
@@ -53,9 +50,6 @@
 0. [slidr.js](http://www.bchanx.com/slidr) ([GitHub](https://github.com/bchanx/slidr))
 
 
-
-
-
 ### Параллакс
 
 0. [Parallax.js](http://matthew.wagerfield.com/parallax/) ([GitHub](https://github.com/wagerfield/parallax))
@@ -72,11 +66,7 @@
 0. [jInvertScroll](http://www.pixxelfactory.net/jInvertScroll/) ([GitHub](https://github.com/pixxelfactory/jInvertScroll))
 
 
-
-
-
-
-### Grid
+### Сетка
 
 0. [Gridlex](http://gridlex.devlint.fr/index.html) ([GitHub](https://github.com/devlint/gridlex))
 0. [GridLayout](https://ghinda.net/gridlayout/) ([GitHub](https://github.com/ghinda/gridlayout))
@@ -92,8 +82,6 @@
 0. [Flex](http://www.jsonenglish.com/projects/flex/) ([GitHub](https://github.com/jasonenglish/jquery-flex/))
 0. [MasonJS](http://masonjs.com/) ([GitHub](https://github.com/DrewDahlman/Mason))
 0. [jsGrid](http://js-grid.com/) ([GitHub](https://github.com/tabalinas/jsgrid))
-
-
 
 
 ### Графики
@@ -124,7 +112,7 @@
 
 
 
-### Scrollbar
+### Скроллбар
 
 0. [Optiscroll](http://albertogasparin.github.io/Optiscroll/) ([GitHub](https://github.com/albertogasparin/Optiscroll))
 0. [perfect-scrollbar](https://noraesae.github.io/perfect-scrollbar/) ([GitHub](https://github.com/noraesae/perfect-scrollbar))
