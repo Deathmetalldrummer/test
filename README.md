@@ -26,6 +26,15 @@
 
 
 
+[Якорь](#anchor)
+
+
+
+
+
+
+
+
 
 
 
@@ -39,6 +48,11 @@
 0. [Paper Collapse](https://bbo-code.com/components/paper-collapse) ([GitHub](https://github.com/alexander-ruehle/paper-collapse))
 0. [Slinky](http://slinky.iclanzan.com/) ([GitHub](https://github.com/iclanzan/slinky))
 0. [Zozo accordion](http://zozoui.com/accordion/)
+
+
+
+### <a name="anchor"></a> Якорь
+
 
 
 ### Слайдеры
