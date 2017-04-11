@@ -1,47 +1,26 @@
 # Плагины
 
-[Аккордеон](#Аккордеон)
-
-[Слайдеры](#Слайдеры)
-
-[Табы](#Табы)
-
-[Сетка](#Сетка)
-
-[Графики](#Графики)
-
-[Параллакс](#Параллакс)
-
-[Скроллбар](#Скроллбар)
-
-[Окна](#Окна)
-
-[Прогресс](#Прогресс)
-
-[Календарь](#Календарь)
-
-[Таблицы](#Таблицы)
+0. [Аккордеон](#Accordion)
+0. [Слайдеры](#Slider)
+0. [Табы](#Tab)
+0. [Сетка](#Grid)
+0. [Графики](#Chart)
+0. [Параллакс](#Parallax)
+0. [Скроллбар](#Scrollbar)
+0. [Окна](#Modal)
+0. [Прогресс](#ProgressBar)
+0. [Календарь](#Calendar)
+0. [Таблицы](#Table)
+0. [Пагинация](#Pagination)
+0. [Прелодеры](#Preloader)
+0. [формы](#Form)
+0. [Рейтинги](#Rating)
 
 
+---
 
 
-
-[Якорь](#anchor)
-
-
-
-
-
-
-
-
-
-
-
-<!-- 0. []() ([GitHub]()) -->
-
-
-### Аккордеон
+### <a name="Accordion"></a> Аккордеон
 
 0. [zAccordion](https://natearmagost.github.io/zaccordion/) ([GitHub](https://github.com/natearmagost/zAccordion/))
 0. [vAccordion](http://lukaszwatroba.github.io/v-accordion/) ([GitHub](https://github.com/LukaszWatroba/v-accordion))
@@ -51,11 +30,7 @@
 
 
 
-### <a name="anchor"></a> Якорь
-
-
-
-### Слайдеры
+### <a name="Slider"></a> Слайдеры
 
 0. [Slick](http://kenwheeler.github.io/slick/) ([GitHub](https://github.com/kenwheeler/slick/))
 0. [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/) ([GitHub](https://github.com/OwlCarousel2/OwlCarousel2/))
@@ -71,7 +46,8 @@
 0. [slidr.js](http://www.bchanx.com/slidr) ([GitHub](https://github.com/bchanx/slidr))
 
 
-### Параллакс
+
+### <a name="Parallax"></a> Параллакс
 
 0. [Parallax.js](http://matthew.wagerfield.com/parallax/) ([GitHub](https://github.com/wagerfield/parallax))
 0. [RELLAX](https://dixonandmoe.com/rellax/) ([GitHub](https://github.com/dixonandmoe/rellax/))
@@ -87,7 +63,8 @@
 0. [jInvertScroll](http://www.pixxelfactory.net/jInvertScroll/) ([GitHub](https://github.com/pixxelfactory/jInvertScroll))
 
 
-### Сетка
+
+### <a name="Grid"></a> Сетка
 
 0. [Gridlex](http://gridlex.devlint.fr/index.html) ([GitHub](https://github.com/devlint/gridlex))
 0. [GridLayout](https://ghinda.net/gridlayout/) ([GitHub](https://github.com/ghinda/gridlayout))
@@ -105,7 +82,8 @@
 0. [jsGrid](http://js-grid.com/) ([GitHub](https://github.com/tabalinas/jsgrid))
 
 
-### Графики
+
+### <a name="Chart"></a> Графики
 
 0. [Chartist.js](https://gionkunz.github.io/chartist-js/) ([GitHub](https://github.com/gionkunz/chartist-js))
 0. [Chart.js](http://www.chartjs.org/) ([GitHub](https://github.com/chartjs/Chart.js))
@@ -122,8 +100,7 @@
 
 
 
-
-### Табы
+### <a name="Tab"></a> Табы
 
 0. [TabTab.js](http://tabtab.be/) ([GitHub](https://github.com/gijsroge/tabtab.js))
 0. [Zozo tabs](http://zozoui.com/tabs/)
@@ -132,8 +109,7 @@
 
 
 
-
-### Скроллбар
+### <a name="Scrollbar"></a> Скроллбар
 
 0. [Optiscroll](http://albertogasparin.github.io/Optiscroll/) ([GitHub](https://github.com/albertogasparin/Optiscroll))
 0. [perfect-scrollbar](https://noraesae.github.io/perfect-scrollbar/) ([GitHub](https://github.com/noraesae/perfect-scrollbar))
@@ -145,11 +121,7 @@
 
 
 
-
-
-
-
-### Окна
+### <a name="Modal"></a> Окна
 
 0. [Bootbox.js](http://bootboxjs.com/) ([GitHub](https://github.com/makeusabrew/bootbox))
 0. [alertify.js](http://fabien-d.github.io/alertify.js/) ([GitHub](https://github.com/fabien-d/alertify.js))
@@ -164,11 +136,7 @@
 
 
 
-
-
-
-
-### Прогресс
+### <a name="ProgressBar"></a> Прогресс
 
 0. [Progress bar.js](https://kimmobrunfeldt.github.io/progressbar.js/) ([GitHub](https://github.com/kimmobrunfeldt/progressbar.js))
 0. [Pace](http://github.hubspot.com/pace/docs/welcome/) ([GitHub](http://github.com/HubSpot/PACE))
@@ -181,8 +149,7 @@
 
 
 
-
-### Календарь
+### <a name="Calendar"></a> Календарь
 
 0. [Rome](https://bevacqua.github.io/rome/) ([GitHub](https://github.com/bevacqua/rome))
 0. [PickMeUp](http://nazar-pc.github.io/PickMeUp/) ([GitHub](https://github.com/nazar-pc/PickMeUp))
@@ -197,9 +164,7 @@
 
 
 
-
-
-### Таблицы
+### <a name="Table"></a> Таблицы
 
 0. [Dynatable](https://www.dynatable.com/) ([GitHub](https://github.com/fooplugins/FooTable))
 0. [Vanilla-DataTables](http://mobius.ovh/docs/vanilla-datatables/pages/demos) ([GitHub](https://github.com/fooplugins/FooTable))
@@ -212,3 +177,51 @@
 0. [Tabulator](http://olifolkerd.github.io/tabulator/) ([GitHub](https://github.com/fooplugins/FooTable))
 0. [jQuery-KingTable](https://github.com/RobertoPrevato/jQuery-KingTable) ([GitHub](https://github.com/RobertoPrevato/jQuery-KingTable))
 0. [FooTable](http://fooplugins.github.io/FooTable/) ([GitHub](https://github.com/fooplugins/FooTable))
+
+
+
+### <a name="Pagination"></a> Пагинация
+
+0. [simplePagination.js](http://flaviusmatis.github.io/simplePagination.js/) ([GitHub](https://github.com/flaviusmatis/simplePagination.js))
+0. [jQuery Pagination plugin](https://esimakin.github.io/twbs-pagination/) ([GitHub](https://github.com/esimakin/twbs-pagination))
+0. [bootpag](http://botmonster.com/jquery-bootpag/#.WOyJO2csHct) ([GitHub](https://github.com/botmonster/jquery-bootpag))
+0. [jPages](http://luis-almeida.github.io/jPages/)
+
+
+
+### <a name="Preloader"></a> Прелодеры
+
+0. [imagesLoaded](http://imagesloaded.desandro.com/) ([GitHub](https://github.com/desandro/imagesloaded))
+0. [spin.js](http://spin.js.org/) ([GitHub](http://github.com/fgnass/spin.js))
+0. [fakeLoader.js](http://joaopereirawd.github.io/fakeLoader.js/) ([GitHub](https://github.com/joaopereirawd/fakeLoader.js))
+0. [PreloadJS](http://www.createjs.com/preloadjs) ([GitHub]())
+0. [DEPreLoad.js](https://demos.wearede.com/depreloadjs/) ([GitHub](https://github.com/wearede/DePreLoad.js))
+0. [Loaders.css](https://connoratherton.com/loaders) ([GitHub](https://github.com/ConnorAtherton/loaders.css))
+0. [jQuery LoadingOverlay](http://gasparesganga.com/labs/jquery-loading-overlay/) ([GitHub](https://github.com/gasparesganga/jquery-loading-overlay))
+0. [PleaseWait.js](http://pathgather.github.io/please-wait/) ([GitHub](https://github.com/Pathgather/please-wait))
+0. [Prelodr](https://github.com/joseluisq/prelodr)
+
+
+
+### <a name="Form"></a> Формы
+
+0. [Mask Plugin](https://igorescobar.github.io/jQuery-Mask-Plugin/) ([GitHub](https://github.com/igorescobar/jQuery-Mask-Plugin))
+0. [Parsley](http://parsleyjs.org/) ([GitHub](https://github.com/guillaumepotier/Parsley.js))
+0. [jQuery Form Validator](http://www.formvalidator.net/) ([GitHub](https://github.com/victorjonsson/jQuery-Form-Validator/))
+0. [Validator](http://1000hz.github.io/bootstrap-validator/) ([GitHub](https://github.com/1000hz/bootstrap-validator))
+0. [SMOKE](http://alfredobarron.github.io/smoke/) ([GitHub](https://github.com/alfredobarron/smoke))
+0. [formvalidation](http://formvalidation.io/)
+0. [Validatr](http://jaymorrow.github.io/validatr/) ([GitHub](https://github.com/jaymorrow/validatr))
+0. [Validetta](http://lab.hasanaydogdu.com/validetta/) ([GitHub](https://github.com/hsnayd/validetta))
+
+
+
+### <a name="Rating"></a> Рейтинги
+
+0. [jQuery Bar Rating](http://antenna.io/demo/jquery-bar-rating/examples/) ([GitHub](http://github.com/antennaio/jquery-bar-rating))
+0. [RateIt](http://gjunge.github.io/rateit.js/examples/) ([GitHub](https://github.com/gjunge/rateit.js))
+0. [Rate Yo!](http://rateyo.fundoocode.ninja/) ([GitHub](https://github.com/prrashi/rateYo))
+0. [jRate](http://toolitup.com/jRate.html) ([GitHub](https://github.com/senthilporunan/jRate))
+0. [Ratemate](http://dylanfm.github.io/jquery.ratemate/) ([GitHub](https://github.com/dylanfm/jquery.ratemate))
+0. [starrr](https://github.com/dobtco/starrr) ([GitHub](http://dobtco.github.com/starrr))
+0. [star-rating-svg.js](http://nashio.github.io/star-rating-svg/demo/) ([GitHub](https://github.com/nashio/star-rating-svg))
