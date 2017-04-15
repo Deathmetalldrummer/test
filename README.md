@@ -6,9 +6,10 @@
 </svg>
 ```
 <br />
+<br />
 
 
-[Facebook 2](./Facebook/facebook_2.svg)
+___[Facebook 2](./Facebook/facebook_2.svg)___
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <circle cx="50" cy="50" r="49"/>
@@ -16,14 +17,16 @@
 </svg>
 ```
 <br />
+<br />
 
 
-[Facebook 3](./Facebook/facebook_3.svg)
+[___Facebook 3___](./Facebook/facebook_3.svg)
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path d="M50,1C23,1,1,23,1,50s22,49,49,49s49-22,49-49C99,23,77,1,50,1z M62.2,51.7h-8c0,12.7,0,28.4,0,28.4H42.4 c0,0,0-15.5,0-28.4h-5.6v-10h5.6v-6.5c0-4.7,2.2-11.9,11.9-11.9h8.8V33c0,0-5.3,0-6.4,0s-2.5,0.5-2.5,2.7v5.9h9L62.2,51.7z"/>
 </svg>
 ```
+<br />
 <br />
 
 
@@ -33,6 +36,7 @@
   <path d="M1,1.1V99h52.1V61.1H40.4V45.7h12.8v-13c0-9.4,7.7-17.1,17.1-17.1h13.3v13.9H74c-3,0-5.4,2.4-5.4,5.4v10.7h14.7 l-2,15.5H68.6v37.9H99V1L1,1.1L1,1.1z"/>
 </svg>
 ```
+<br />
 <br />
 
 
@@ -46,6 +50,7 @@
 ---
 
 ### GitHub
+
 
 
 # Плагины
