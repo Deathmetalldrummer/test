@@ -1,4 +1,4 @@
-![svg](./svg.svg)
+![svg](https://github.com/Deathmetalldrummer/test/blob/master/svg.svg)
 
 
 # Плагины
