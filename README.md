@@ -1,3 +1,15 @@
+```typescript
+let x: number = 10;
+let hello: string = "hello world";
+let isValid: boolean = true;
+```
+```javascript
+let x: number = 10;
+let hello: string = "hello world";
+let isValid: boolean = true;
+```
+
+
 ### Facebook
 [Facebook 1](./Facebook/facebook_1.svg)
 ```html
