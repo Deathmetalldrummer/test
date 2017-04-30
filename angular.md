@@ -54,22 +54,16 @@ Angular 2 мы можем использовать валидацию HTML5
 ```
 
 <br />
-**Template-Driven**
+### Template-Driven
 
-* ngModel
-* ngForm
-* ngSubmit
+* **ngModel**
+* **ngForm**
+* **ngSubmit**
 
-
-<br />
-**Data-Driven**
-
-* FormGroup
-* FormControl
-* FormArray
-* FormBuilder
 
 <br />
+### Data-Driven
+
 При подходе Data-Driven для формы создается набор объектов **FormGroup** и **FormControl**.
 
 * **FormGroup** - Сама форма и ее подсекции
