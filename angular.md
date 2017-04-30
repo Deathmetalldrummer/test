@@ -53,7 +53,8 @@ Angular 2 мы можем использовать валидацию HTML5
 <input type="email" email />
 ```
 
-<br />
+<br/>
+
 ### Template-Driven
 
 * **ngModel**
@@ -61,7 +62,7 @@ Angular 2 мы можем использовать валидацию HTML5
 * **ngSubmit**
 
 
-<br />
+<br/>
 ### Data-Driven
 
 При подходе Data-Driven для формы создается набор объектов **FormGroup** и **FormControl**.
