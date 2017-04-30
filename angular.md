@@ -29,6 +29,7 @@ Angular 2 мы можем использовать валидацию HTML5
 <input type="text" name="name" value="" required pattern="[a-zA-Z_]+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}" />
 ```
 
+
 <br />
 
 ### Валидация email в Angular 4
@@ -38,6 +39,8 @@ Angular 2 мы можем использовать валидацию HTML5
 <input type='email' email />
 ```
 
+
+<br />
 <br />
 
 ## Template-Driven
@@ -45,26 +48,26 @@ Angular 2 мы можем использовать валидацию HTML5
 https://metanit.com/web/angular2/5.2.php
 
 * Директива **ngModel**:
-```html
-<input type='text' name=”id” #inputModel='ngModel' [(ngModel)]='id' />
-<span>{{inputModel.model}}</span>
-<span>{{inputModel.valid}}</span>
-<button (click)='f(inputModel)'>ok</button>
-```
-`#inputModel` шаблонная переменная, является обьектом ngModel (переменной присваивается обьект ngModel или имеет тип этого объекта). Можно передать в функцию в качестве параметра, если присутствует `[(ngModel)]='id'` , `[ngModel]='id'`.
-<br />
-<br />
-Некоторые свойства **ngModel**:
-```typescript
-NgModel {
-    name: // значение атрибута name
-    model: // данные которые попадают в модель [(ngModel)]
-    value: // значение формы или аналогично model
-    valid: // валидация boolean (true)
-    invalid: // валидация boolean (false)
-    untouched:    
-}
-```
+    ```html
+    <input type='text' name=”id” #inputModel='ngModel' [(ngModel)]='id' />
+    <span>{{inputModel.model}}</span>
+    <span>{{inputModel.valid}}</span>
+    <button (click)='f(inputModel)'>ok</button>
+    ```
+    `#inputModel` шаблонная переменная, является обьектом ngModel (переменной присваивается обьект ngModel или имеет тип этого объекта). Можно передать в функцию в качестве параметра, если присутствует `[(ngModel)]='id'` , `[ngModel]='id'`.
+    <br />
+    <br />
+    Некоторые свойства **ngModel**:
+    ```typescript
+    NgModel {
+        name: // значение атрибута name
+        model: // данные которые попадают в модель [(ngModel)]
+        value: // значение формы или аналогично model
+        valid: // валидация boolean (true)
+        invalid: // валидация boolean (false)
+        untouched:    
+    }
+    ```
 
 * Директива **ngForm**:
 * Директива **ngSubmit**:
@@ -81,59 +84,58 @@ NgModel {
 Также импортировать в файл компонента **FormGroup** ,  **FormControl** , **FormArray** и **FormBuilder** из **'@angular/forms'**
 
 * **FormGroup** - Сама форма и ее подсекции
-```html
-<form [formGroup]='myForm'>
-</form>
-```
-```typescript
-myForm : FormGroup = new FormGroup();
-```
+    ```html
+    <form [formGroup]='myForm'>
+    </form>
+    ```
+    ```typescript
+    myForm : FormGroup = new FormGroup();
+    ```
 
 * **FormControl** - Отдельные элементы ввода
-```html
-<form [formGroup]='myForm'>
-    <input type='text' name='myInput' formControlName='myInput' />
-</form>
-```
-```typescript
-myForm : FormGroup = new FormGroup({
-    'myInput': new FormControl()
-});
-```
+    ```html
+    <form [formGroup]='myForm'>
+        <input type='text' name='myInput' formControlName='myInput' />
+    </form>
+    ```
+    ```typescript
+    myForm : FormGroup = new FormGroup({
+        'myInput': new FormControl()
+    });
+    ```
 
 * **FormArray** - Массив, хранит набор объектов FormControl.
-```html
-<form [formGroup]='myForm'>
-    <div formArrayName='arrayCheck'>
-        <div *ngFor="let check of myForm.controls['arrayCheck'].controls; let i = index">
-            <input type='checkbox' name='myCheck' formControlName='{{i}}' />
+    ```html
+    <form [formGroup]='myForm'>
+        <div formArrayName='arrayCheck'>
+            <div *ngFor="let check of myForm.controls['arrayCheck'].controls; let i = index">
+                <input type='checkbox' name='myCheck' formControlName='{{i}}' />
+            </div>
         </div>
-    </div>
-</form>
-```
-```typescript
-myForm : FormGroup = new FormGroup({
-    "arrayCheck": new FormArray([
-        new FormControl(),
-        new FormControl()
-    ])
-});
-```
+    </form>
+    ```
+    ```typescript
+    myForm : FormGroup = new FormGroup({
+        "arrayCheck": new FormArray([
+            new FormControl(),
+            new FormControl()
+        ])
+    });
+    ```
 
 * **FormBuilder** - Альтернативный подход к созданию форм
-<br />
-FormBuilder передается в качестве сервиса в конструктор. С помощью метода group() создается объект FormGroup. Каждый элемент передается в форму в виде обычного массива значений
-```typescript
-myForm : FormGroup;
-    constructor(private formBuilder: FormBuilder) {
-        this.myForm = formBuilder.group({
-            "myInput": ["email@ecorp.com", [Validators.required, Validators.pattern("[a-zA-Z_]+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}")]],
-            "arrayCheck": formBuilder.array([
-                [true, Validators.required]
-            ])
-        });
-    }
-```
+    FormBuilder передается в качестве сервиса в конструктор. С помощью метода group() создается объект FormGroup. Каждый элемент передается в форму в виде обычного массива значений
+    ```typescript
+    myForm : FormGroup;
+        constructor(private formBuilder: FormBuilder) {
+            this.myForm = formBuilder.group({
+                "myInput": ["email@ecorp.com", [Validators.required, Validators.pattern("[a-zA-Z_]+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}")]],
+                "arrayCheck": formBuilder.array([
+                    [true, Validators.required]
+                ])
+            });
+        }
+    ```
 
 
 <br />
@@ -172,3 +174,4 @@ constructor(private formBuilder: FormBuilder) {
     });
 }
 ```
+
