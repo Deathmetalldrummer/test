@@ -2,12 +2,12 @@
 
 ```typescript
 NgModel {
-    name: // значение атрибута name
-    model: // данные которые попадают в модель [(ngModel)]
-    value: // значение формы или аналогично model
-    valid: // валидация boolean (true)
-    invalid: // валидация boolean (false)
-    untouched:    
+    name: ,// значение атрибута name
+    model: ,// данные которые попадают в модель [(ngModel)]
+    value: ,// значение формы или аналогично model
+    valid: ,// валидация boolean (true)
+    invalid: ,// валидация boolean (false)
+    untouched: ,    
 }
 ```
 
