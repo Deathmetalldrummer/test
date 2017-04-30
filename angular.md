@@ -1,19 +1,14 @@
 ## Работа с формами
 
-```html
-<input type="text" name=”id” #inputModel="ngModel" [(ngModel)]="id" />
-<span>{{inputModel.model}}</span>
-```
-`#inputModel` ссылается на элемент html
-
-Свойства **ngModel**:
 ```typescript
-name: // значение атрибута name
-model: // данные которые попадают в модель [(ngModel)]
-value: // аналогично model
-valid: // валидация boolean (true)
-invalid: // валидация boolean (false)
-untouched:
+NgModel {
+    name: // значение атрибута name
+    model: // данные которые попадают в модель [(ngModel)]
+    value: // значение формы или аналогично model
+    valid: // валидация boolean (true)
+    invalid: // валидация boolean (false)
+    untouched:    
+}
 ```
 
 У **ngForm** некоторые свойства похожи на ngModel
