@@ -14,12 +14,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id amet exercitationem
 0. item1
 
 
-0. item1
-0. item2
-0. item3
-0. item4
-0. item5
-0. item6
+0. item
+0. item
 
 
 + item1
