@@ -1,7 +1,5 @@
-*em*
-**strong**
-_em_
-__strong__
+***emstrong***
+`code`
 
 
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id amet exercitationem voluptatem veritatis, facere sunt tenetur, aliquid at reprehenderit omnis!
