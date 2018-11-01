@@ -1,13 +1,281 @@
+
 <!DOCTYPE html>
-<html lang="en"></html>
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-  <link rel="stylesheet" href="./style/index.css"/>
-  <title>Notes</title>
-</head>
-<body><a href="./tech/html/">html</a>
-  <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="./script/index.js"></script>
-</body>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
+  <head>
+            <title>zAccordion - A Horizontal Accordion Plugin for jQuery</title>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta charset="utf-8">
+    <meta name="author" content="Nate Armagost" />
+    <meta name="copyright" content="2010 - 2013" />
+    <link rel="shortcut icon" href="../zaccordion/favicon.ico" />
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+                <meta name="keywords" content="jQuery Accordion Plugin, Horizontal Accordion, JavaScript Plugin, jQuery Slideshow, jQuery" />
+                  <meta name="description" content="zAccordion is a horizontal accordion plugin for jQuery." />
+              <meta name="google-site-verification" content="E8MVf4lTUjodh8zLfJR6sqDnJkLq-_EICAVGZcSV0Po" />
+    <meta name="y_key" content="4c79795dd65bf821" />
+    <link rel="publisher" href="https://plus.google.com/101299428698623275211" />
+    <link rel="stylesheet" href="../zaccordion/style.css" />
+        <link rel="stylesheet" href="../zaccordion/css/examples.min.css" />
+    <link rel="stylesheet" href="../zaccordion/syntax/shCore.css" />
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  </head>
+      <body itemscope itemtype="http://schema.org/WebPage">
+      <div id="container" class="container">
+      <div id="header" class="container">
+        <div class="notification">
+          <p>zAccordion is no longer maintained and is no longer supported.</p>
+        </div>
+      </div>
+      <div id="content" class="container">
+        <div class="content-shadow-top"></div>
+        <!--[if lt IE 8]>
+        <div id="ie" class="sixteen columns">
+          <div class="wrapper">
+            <div class="notification">
+              <p>You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+            </div>
+          </div>
+        </div>
+        <![endif]--><!-- zaccordion.php -->
+        <div id="main" role="main" class="sixteen columns" itemscope itemtype="http://schema.org/WebApplication">
+          <div class="wrapper">
+            <section>
+              <h1 itemprop="name">zAccordion</h1>
+              <div class="hr"><hr /></div>
+              <span itemprop="creator" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="name" content="Nate Armagost" />
+              </span>
+              <meta itemprop="url" content="http://www.armagost.com/zaccordion" />
+              <meta itemprop="description" content="A horizontal accordion plugin for jQuery" />
+              <p>zAccordion is a horizontal accordion plugin for <strong>jQuery</strong>. <a href="#download">Download</a> it now.</p>
+              <p>The latest version of zAccordion is <strong>Version 2.1.0</strong>.</p>
+              <div class="accordion accordion-offset accordion-responsive">
+                <ul id="featured">
+                  <li>
+                    <img src="../zaccordion/images/diner-170x85.jpg" width="175" height="85" data-src-full="../zaccordion/images/diner-600x310.jpg" data-src-standard="../zaccordion/images/diner-460x235.jpg" data-src-tablet="../zaccordion/images/diner-250x125.jpg" data-src-mobile="../zaccordion/images/diner-170x85.jpg" alt="Example Slide Image 1" />
+                  </li>
+                  <li>
+                    <img src="../zaccordion/images/pool-170x85.jpg" width="175" height="85" data-src-full="../zaccordion/images/pool-600x310.jpg" data-src-standard="../zaccordion/images/pool-460x235.jpg" data-src-tablet="../zaccordion/images/pool-250x125.jpg" data-src-mobile="../zaccordion/images/pool-170x85.jpg" alt="Example Slide Image 2" />
+                  </li>
+                  <li>
+                    <img src="../zaccordion/images/gas-170x85.jpg" width="175" height="85" data-src-full="../zaccordion/images/gas-600x310.jpg" data-src-standard="../zaccordion/images/gas-460x235.jpg" data-src-tablet="../zaccordion/images/gas-250x125.jpg" data-src-mobile="../zaccordion/images/gas-170x85.jpg" alt="Example Slide Image 3" />
+                  </li>
+                  <li>
+                    <img src="../zaccordion/images/car-170x85.jpg" width="175" height="85" data-src-full="../zaccordion/images/car-600x310.jpg" data-src-standard="../zaccordion/images/car-460x235.jpg" data-src-tablet="../zaccordion/images/car-250x125.jpg" data-src-mobile="../zaccordion/images/car-170x85.jpg" alt="Example Slide Image 4" />
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section>
+              <h2 id="examples">Examples</h2>
+              <ul>
+                <li><a href="../zaccordion/a-barebones-example.html">A Barebones Example</a></li>
+                <li><a href="../zaccordion/an-advanced-example.html">An Advanced Example</a> - Demonstrates <em>animationStart</em>, <em>animationComplete</em>, and <em>startingSlide</em></li>
+                <li><a href="../zaccordion/another-advanced-example.html">Another Advanced Example</a></li>
+                <li><a href="../zaccordion/fade-in-the-accordion.html">Fade in the Accordion</a> - Demonstrates <em>buildComplete</em></li>
+                <li><a href="../zaccordion/a-responsive-example-using-media-queries.html">A Responsive Example using Media Queries</a></li>
+              </ul>
+            </section>
+            <section class="media-hide-tablet media-hide-mobile">
+              <h2>Implementation</h2>
+              <ul class="tabs clearfix">
+                <li><a href="#html" class="active">HTML</a></li>
+                <li><a href="#javascript">JavaScript</a></li>
+              </ul>
+              <ul class="tabs-content">
+                <li class="active" id="html">
+                  <p>The HTML is pretty straightforward. In the accordion above, I use an unordered list. Each list-item contains an image.</p>
+                  <code>
+                    <pre class="brush: xml">
+                      &lt;ul id="featured"&gt;
+                        &lt;li&gt;
+                          &lt;img src="diner.jpg" alt="Old School Diner" /&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                          &lt;img src="pool.jpg" alt="Vintage Pool" /&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                          &lt;img src="gas.jpg" alt="Retro Gas Pump" /&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                          &lt;img src="car.jpg" alt="Old Car Steering Wheel" /&gt;
+                        &lt;/li&gt;
+                      &lt;/ul&gt;
+                    </pre>
+                  </code>
+                </li>
+                <li id="javascript">
+                  <p>The JavaScript below builds the actual accordion.</p>
+                  <div class="media-hide-standard media-hide-tablet media-hide-mobile">
+                  <code>
+                    <pre class="brush: js">
+                      $(document).ready(function() {
+                        $("#featured").zAccordion({ 
+                          easing: 'easeOutBounce',
+                          timeout: 5500,
+                          slideWidth: 600,
+                          width: 900,
+                          height: 310
+                        });
+                      });
+                    </pre>
+                  </code>
+                  </div>
+                  <div class="media-hide-full media-hide-tablet media-hide-mobile ie-hide">
+                    <code class="language-javascript">
+                      <pre class="brush: js">
+                        $(document).ready(function() {
+                          $("#featured").zAccordion({ 
+                            easing: 'easeOutBounce',
+                            timeout: 5500,
+                            slideWidth: 460,
+                            width: 700,
+                            height: 235
+                          });
+                        });
+                      </pre>
+                    </code>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="media-hide-tablet media-hide-mobile">
+              <h3>Configuration</h3>
+              <ul class="tabs clearfix">
+                <li><a href="#options" class="active">Options</a></li>
+                <li><a href="#methods">Methods</a></li>
+              </ul>
+              <ul class="tabs-content">
+                <li class="active" id="options">
+                  <p>The plugin can be further customized by tweaking any of the options below:</p>
+                  <code>
+                    <pre class="brush: js">
+                      timeout: 6000, /* Time between each slide (in ms). */
+                      width: null, /* Width of the container. This option is required. */
+                      slideWidth: null, /* Width of each slide in pixels or width of each slide compared to a 100% container. */
+                      tabWidth: null, /* Width of each slide's "tab" (when clicked it opens the slide) or width of each tab compared to a 100% container. */
+                      height: null, /* Height of the container. This option is required. */
+                      startingSlide: 0, /* Zero-based index of which slide should be displayed. */
+                      slideClass: null, /* Class prefix of each slide. If left null, no classes will be set. */
+                      easing: null, /* Easing method. */
+                      speed: 1200, /* Speed of the slide transition (in ms). */
+                      auto: true, /* Whether or not the slideshow should play automatically. */
+                      trigger: "click", /* Event type that will bind to the "tab" (click, mouseover, etc.). */
+                      pause: true, /* Pause on hover. */
+                      invert: false, /* Whether or not to invert the slideshow, so the last slide stays in the same position, rather than the first slide. */
+                      animationStart: function () {}, /* Function called when animation starts. */
+                      animationComplete: function () {}, /* Function called when animation completes. */
+                      buildComplete: function () {}, /* Function called after the accordion is finished building. */
+                      errors: false /* Display zAccordion specific errors. */
+                    </pre>
+                  </code>
+                </li>
+                <li id="methods">
+                  <p>The plugin will also accept the following methods:</p>
+                  <code>
+                    <pre class="brush: js">
+                      start /* Start the accordion. */
+                      stop /* Stop the accordion. */
+                      trigger /* Trigger a specific slide. */
+                      destroy /* Destroys accordion, unbinds events, and removes styles. */
+                    </pre>
+                  </code>
+                </li>
+              </ul>
+              <p>For more information on using methods, please refer to the examples files included in the <a href="#download">Download</a>.</p>
+            </section>
+            <section>
+              <h2 id="download">Download</h2>
+              <p><strong>jQuery zAccordion</strong> comes with the JavaScript files (minimized and non-minimized) as well as some examples.</p>
+              <p><a href="../zaccordion/jquery.zaccordion.zip">Download</a> the latest version. Check it out on <a href="https://github.com/natearmagost/zAccordion">GitHub</a>.</p>
+            </section>
+            <section>
+              <h2>Release Notes</h2>
+              <p>As of the new version 2.1.0, zAccordion will not be tested in Internet Explorer 6 or Internet Explorer 7. <span itemprop="browserRequirements">zAccordion is supported in Internet Explorer 8 and the latest builds of Firefox, Chrome, and Safari.</span></p>
+              <p><strong>Version <span itemprop="softwareVersion">2.1.0</span></strong> &mdash; September 26, 2012 <meta itemprop="dateModified" content="2012-09-28" /></p>
+              <ul itemprop="releaseNotes">
+                <li>Added a <em>destroyComplete</em> option that is available after the accordion is destroyed.</li>
+                <li>Renamed <em>afterBuild</em> to <em>buildComplete</em> to align with naming conventions.</li>
+                <li>Fixed a small display issue with list-items inheriting a text-indent property.</li>
+                <li>Suppressed zAccordion specific errors. Errors can be enabled with <em>errors: true</em>.</li>
+              </ul>
+              <p><strong>Version 2.0.0</strong> &mdash; September 18, 2011</p>
+              <p>As of the new version 2.0.0, zAccordion's options have changed. zAccordion was also rebuilt to follow jQuery's best practices in <a href="http://docs.jquery.com/Plugins/Authoring">Plugin Authoring</a>.</p>
+              <ul>
+                <li>New plugin structure.</li>
+                <li>Cleaned up non-minimized code to confine to <a href="http://www.jslint.com">JSLint</a> standards.</li>
+                <li>Added support for percentages when defining height and width.</li>
+                <li>Fixed an issue with the pause option stopping accordion even when set to false.</li>
+                <li>Many smaller bug fixes and optimizations as well as error checking.</p> 
+              </ul>
+              <p><strong>Version 1.1.2</strong> &mdash; June 12, 2011</p>
+              <ul>
+                <li>Added a function named <em>afterBuild</em> that will fire once the accordion is ready.</li>
+              </ul>
+              <p><strong>Version 1.1.1</strong> &mdash; May 17, 2011</p>
+              <ul>
+                <li>Fixed an issue with events building up.</li>
+                <li>Fixed an issue with slides automatically rotating after being triggered even if auto was set to false.</li>
+              </ul>
+              <p><strong>Version 1.1.0</strong> &mdash; March 20, 2011</p>
+              <ul>
+                <li>Added an option to invert the slides (right slide on bottom, left slide on top).</li>
+                <li>Added a class to the previously opened slide.</li>
+              </ul>
+              <p><strong>Version 1.0.1</strong> &mdash; January 10, 2011</p>
+              <ul>
+                <li>Fixed an issue with child elements breaking timer.</li>
+              </ul>
+              <p><strong>Version 1.0.0</strong> &mdash; December, 2010</p>
+              <ul>
+                <li>First release.</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+     
+
+<!-- footer.php -->
+        <div class="clear"></div>
+        <div class="content-shadow-bottom"></div>
+      </div> <!-- /content -->
+      <div class="content-spacer container"></div>
+      <div id="footer" class="container">
+        <footer>
+          <div class="sixteen columns">
+            <div class="wrapper">
+              <p>&copy;2010-2013 Nate Armagost, Minneapolis, MN.<br/> All Rights Reserved.</p>
+            </div>
+          </div>
+        </footer>
+      </div> <!-- content-bottom -->
+    </div> <!-- /container -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+              <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+      <script src="../zaccordion/js/jquery.zaccordion.min.js"></script>
+      <script src="../zaccordion/syntax/shCombined.min.js"></script>
+      <script>
+        /* <![CDATA[ */
+        $(document).ready(function() {
+          SyntaxHighlighter.config.clipboardSwf = "../zaccordion/syntax/clipboard.swf";
+          SyntaxHighlighter.all();
+        });
+        /* ]]> */
+      </script>
+      <script src="../zaccordion/js/enquire.min.js"></script>
+      <script src="../zaccordion/js/examples.min.js"></script>
+                <!--stats_footer_test-->    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-40435206-1', 'armagost.com');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
