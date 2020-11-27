@@ -2,4 +2,4 @@
 
 
 
-[link](./index.html)
+[link](https://deathmetalldrummer.github.io/test/)
