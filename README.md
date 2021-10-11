@@ -21,3 +21,39 @@
   See the Pen <a href='https://codepen.io/Ragnarok/pen/pRRmor'>Horizontal Image Accordion jQuery</a> by Ragnarok
   (<a href='https://codepen.io/Ragnarok'>@Ragnarok</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+
+
+<details>
+<summary>Spoiler</summary>
+<p>
+
+```js
+// ES5
+var x = 'outer';
+function test(inner) {
+  if (inner) {
+    var x = 'inner'; // scope whole function
+    return x;
+  }
+  return x; // gets redefined on line 4
+}
+
+test(false); // undefined 
+test(true); // inner
+
+// ES6
+let x = 'outer';
+function test(inner) {
+  if (inner) {
+    let x = 'inner';
+    return x;
+  }
+  return x; // gets result from line 1 as expected
+}
+
+test(false); // outer
+test(true); // inner
+```
+</p>
+</details>
