@@ -26,6 +26,7 @@
 - [Проверка на наличие элемента в массиве](./ECMAScript.md/#array_prototype_includes)
 - [Оператор возведения в степень **](./ECMAScript.md/#exponentiation)
 
+<br/><br/><br/>
 
 # [ES8](./ECMAScript.md/#ES8)
 
