@@ -23,12 +23,14 @@
 - [Генераторы](#generators)
 - [Итераторы](#iterators)
 
+<br/>
 
 ##### [ES7](#ES7)
 
 - [Проверка на наличие элемента в массиве](#array_prototype_includes)
 - [Оператор возведения в степень **](#exponentiation)
 
+<br/>
 
 ##### [ES8](#ES8)
 
@@ -40,6 +42,7 @@
 - [Async/Await](#async_await)
 - [Разделяемая память и атомарные операции](#memory_and_atomic_operations)
 
+<br/>
 
 ##### [ES9](#ES9)
 
@@ -48,6 +51,7 @@
 - [Асинхронные итераторы (for await of)](#for_await_of)
 - [Новые функции регулярных выражений](#es9_regexp)
 
+<br/>
 
 ##### [ES10](#ES10)
 
@@ -60,6 +64,7 @@
 - [Array.prototype.flatMap()](#array_flatmap)
 - [Хорошо сформированный JSON.stringify()](#es10_json_stringify)
 
+<br/>
 
 ##### [ES11](#ES11)
 
@@ -74,8 +79,7 @@
 - [Порядок выполнения for-in](#for_in_mechanics)
 
 
-
-
+<br/><br/><br/>
 
 
 ## ES6 <a name="ES6"></a>
@@ -139,7 +143,7 @@ export { name1, name2, …, nameN } from …;
 export { import1 as name1, import2 as name2, …, nameN } from …;
 ```
 
-
+<br/><br/>
 
 
 #### Объявления переменных **let**/**const**. Блочная область видимости (Block scope variables) <a name="let_const"></a>
@@ -224,7 +228,7 @@ test(true); // inner
 ```
 </details>
 
-
+<br/><br/>
 
 
 #### Тип данных Symbol <a name="symbol"></a>
@@ -253,7 +257,7 @@ console.log(Object.getOwnPropertyNames(o)); // val
 
 Чтобы извлечь символьные свойства объекта, нужно использовать `Object.getOwnPropertySymbols(o)`
 
-
+<br/><br/>
 
 
 #### Строковые шаблоны и разделители <a name="string_template"></a>
@@ -290,7 +294,7 @@ const template = `<ul>
 </ul>`;
 ```
 
-
+<br/><br/>
 
 
 #### Стрелочные функции  <a name="arrow_func"></a>
@@ -310,7 +314,7 @@ let addition = (a, b) => {
 };
 ```
 
-
+<br/><br/>
 
 
 #### Параметры по умолчанию  <a name="dafault_param"></a>
@@ -369,7 +373,7 @@ point() // 0 -1 true
 С проверкой на undefined все работает как нужно.
 </details>
 
-
+<br/><br/>
 
 
 #### Расширение возможностей литералов объекта  <a name="object_literals"></a>
@@ -411,7 +415,7 @@ console.log(car);
 // }
 ```
 
-
+<br/><br/>
 
 
 #### Spread/Rest операторы  <a name="spread_rest"></a>
@@ -498,7 +502,7 @@ console.log([...array1, ...array2, ...array3]);
 
 </details>
 
-
+<br/><br/>
 
 
 #### Восьмеричный и двоичный литералы <a name="octal_binary_literals"></a>
@@ -514,7 +518,7 @@ let bValue = 0b10;
 console.log(bValue); // 2
 ```
 
-
+<br/><br/>
 
 
 #### For…of  <a name="for_of"></a>
@@ -554,7 +558,7 @@ for (let symbol of/in 'слово') {
 }
 ```
 
-
+<br/><br/>
 
 
 #### Деструктуризация (Destructuring Assignment) <a name="destructuring"></a>
@@ -611,7 +615,7 @@ const {display: {color: displayColor}, keyboard: {layout: keyboardLayout}} = set
 console.log(displayColor, keyboardLayout); // red querty
 ```
 
-
+<br/><br/>
 
 
 #### Промисы  <a name="promise"></a>
@@ -668,7 +672,7 @@ p.then(eventuallyAdd1)
  .then((val) => console.log(val)) // 3
 ```
 
-
+<br/><br/>
 
 
 #### Классы  <a name="class"></a>
@@ -700,7 +704,7 @@ task.showId(); // 23
 Task.loadAll(); // "Загружаем все tasks..."
 ```
 
-
+<br/><br/>
 
 
 #### Наследование (extends и super в классах)  <a name="extends"></a>
@@ -735,6 +739,7 @@ let c = new Porsche();
 - Объявления классов не поднимаются наверх (not hoisted). Сначала нужно объявить класс и только после этого использовать его, иначе будет ошибка ReferenceError.
 - Нет необходимости использовать ключевое слово `function` во время задания функций внутри определения класса.
 
+<br/><br/>
 
 
 #### Поиск в массиве ( Array.prototype.findIndex(), Array.prototype.find() ) <a name="array_find"></a>
@@ -757,7 +762,7 @@ let c = new Porsche();
 ['one', 'two', 'three',	'four'].findIndex((item) => item === 'three'); // 2
 ```
 
-
+<br/><br/>
 
 
 #### Map и WeakMap <a name="map_weakmap"></a>
@@ -788,7 +793,7 @@ w.delete(o1);
 w.has(o1); // false
 ```
 
-
+<br/><br/>
 
 
 #### Set и WeakSet <a name="set_weakset"></a>
@@ -846,7 +851,7 @@ ws.delete(window); // удаляет window из коллекции
 ws.has(window);    // false, window был удалён
 ```
 
-
+<br/><br/>
 
 
 #### Генераторы <a name="generators"></a>
@@ -875,7 +880,7 @@ numbers.next(); // { value: 3, done: false }
 
 Такжезаметим, что генераторы вычисляют свои возвращённые значения по запросу, что позволяет им эффективно представлять последовательности, затратные с точки зрения вычислений, или даже бесконечные последовательности.
 
-
+<br/><br/>
 
 
 #### Итераторы <a name="iterators"></a>
@@ -900,7 +905,7 @@ itr.next(); // { value: undefined, done: true }
 Заметим, что можно написать собственный итератор через определение `obj[Symbol.iterator]()` с описанием объекта.
 
 
-
+<br/><br/><br/>
 
 
 ## ES7 <a name="ES7"></a>
@@ -927,7 +932,7 @@ if (['1', '2'].includes('3')) {
 [NaN].indexOf(NaN); // -1
 ```
 
-
+<br/><br/>
 
 
 #### Оператор возведения в степень **  <a name="exponentiation"></a>
@@ -939,7 +944,7 @@ Math.pow(4, 2) === 4 ** 2;
 ```
 
 
-
+<br/><br/><br/>
 
 
 ## ES8 <a name="ES8"></a>
@@ -961,7 +966,7 @@ const people = ["Alex", "Julia"];
 Object.values(people); // ["Alex", "Julia"]
 ```
 
-
+<br/><br/>
 
 
 #### Object.entries() <a name="object_entries"></a>
@@ -981,7 +986,7 @@ const people = ["Alex", "Julia"];
 Object.entries(people); // [['0', 'Alex'], ['1', 'Julia']]
 ```
 
-
+<br/><br/>
 
 
 #### Завершающие запятые в параметрах функций. <a name="trailing_commas"></a>
@@ -1004,7 +1009,7 @@ doSomething(
 
 Это повышает удобство работы с системами контроля версий. А именно, речь идёт о том, что, при добавлении новых параметров в функцию, не приходится менять существующий код только ради вставки запятой.
 
-
+<br/><br/>
 
 
 #### Заполнение строк до заданной длины (String padding) <a name="string_padding"></a>
@@ -1032,7 +1037,7 @@ str.padStart(targetLength [, padString]);
 "test".padEnd(8, "abcd"); // 'testabcd'
 ```
 
-
+<br/><br/>
 
 
 #### Сведения о собственных свойствах объекта. Object.getOwnPropertyDescriptors() <a name="getownpropertydescriptors"></a>
@@ -1109,7 +1114,7 @@ person3.name = 'x' //x
 
 Надо отметить, что ограничения, характерные для `Object.assign()`, свойственны и для метода `Object.create()` при использовании его для клонирования объектов.
 
-
+<br/><br/>
 
 
 #### Async/Await <a name="async_await"></a>
@@ -1171,13 +1176,13 @@ watchOverSomeoneWatchingSomeoneDoingSomething().then((res) => {
 })
 ```
 
-
+<br/><br/>
 
 
 #### Разделяемая память и атомарные операции <a name="memory_and_atomic_operations"></a>
 
 
-
+<br/><br/><br/>
 
 
 ## ES9 <a name="ES9"></a>
@@ -1195,7 +1200,7 @@ const items = { first, second, ...others }
 console.log(items) //{ first: 1, second: 2, third: 3, fourth: 4, fifth: 5 }
 ```
 
-
+<br/><br/>
 
 
 #### Метод Promise.prototype.finally() <a name="promise_finally"></a>
@@ -1209,7 +1214,7 @@ fetch('file.json')
   .finally(() => console.log('finished'))
 ```
 
-
+<br/><br/>
 
 
 #### Асинхронные итераторы (for await of) <a name="for_await_of"></a>
@@ -1239,7 +1244,7 @@ test1(); // 1, 2, 3
 
 Так как он использует `await`,  `for-await-of` можно использовать только внутри `async` функций, как обычный `await` в async/await.
 
-
+<br/><br/>
 
 
 #### Новые функции регулярных выражений <a name="es9_regexp"></a>
@@ -1247,7 +1252,7 @@ test1(); // 1, 2, 3
 [https://frontend-stuff.com/blog/es2018/#улучшения-регулярных-выражений](https://frontend-stuff.com/blog/es2018/#улучшения-регулярных-выражений)
 
 
-
+<br/><br/><br/>
 
 
 ## ES10 <a name="ES10"></a>
@@ -1262,7 +1267,7 @@ greeting.trimStart(); // "Hello everyone    "
 greeting.trimEnd(); // "    Hello world"
 ```
 
-
+<br/><br/>
 
 
 #### Параметры для catch. (try…catch err param) <a name="try_catch_err_param"></a>
@@ -1277,7 +1282,7 @@ try{
 }
 ```
 
-
+<br/><br/>
 
 
 #### Function.prototype.toString() <a name="function_tostring"></a>
@@ -1293,7 +1298,7 @@ name.toString(); // "function name() {}"
 name.toString(); // "function /* a comment */ name () {/*...*/}"
 ```
 
-
+<br/><br/>
 
 
 #### Свойство описания символа. (Symbol.prototype.description) <a name="symbol_description"></a>
@@ -1312,7 +1317,7 @@ s.description = 'new description'
 console.log(s.description); // "test symbol"
 ```
 
-
+<br/><br/>
 
 
 #### Object.fromEntries() <a name="object_fromentries"></a>
@@ -1350,7 +1355,7 @@ const studentObj = Object.fromEntries(students);
 // первый alex был перезаписан
 ```
 
-
+<br/><br/>
 
 
 #### Array.prototype.flat() <a name="array_flat"></a>
@@ -1368,7 +1373,7 @@ arr.flat(3); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 arr.flat(Infinity); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 ```
 
-
+<br/><br/>
 
 
 #### Array.prototype.flatMap() <a name="array_flatmap"></a>
@@ -1401,7 +1406,7 @@ const ingredientsList = sandwich.flatMap((item) => item.split(" and "));
 // ['bread', 'peanut butter', 'jelly', 'bread']
 ```
 
-
+<br/><br/>
 
 
 #### Хорошо сформированный JSON.stringify() <a name="es10_json_stringify"></a>
@@ -1421,7 +1426,7 @@ JSON.stringify('\uD800');
 ```
 
 
-
+<br/><br/><br/>
 
 
 ## ES11 <a name="ES11"></a>
@@ -1466,7 +1471,7 @@ function load() {
 load();
 ```
 
-
+<br/><br/>
 
 
 #### BigInt <a name="es11_bigint"></a>
@@ -1494,7 +1499,7 @@ typeof 10; // "number";
 typeof 10n; // "bigint";
 ```
 
-
+<br/><br/>
 
 
 #### globalThis <a name="globalthis"></a>
@@ -1525,7 +1530,7 @@ const globals = getGlobal();
 globalThis === window; // true
 ```
 
-
+<br/><br/>
 
 
 #### Оператор опциональной последовательности (Optional chaining) <a name="optional_chaining"></a>
@@ -1548,7 +1553,7 @@ const colorName = car?.color?.name;
 
 [Более подробно здесь](https://frontend-stuff.com/blog/javascript-optional-chaining/)
 
-
+<br/><br/>
 
 
 #### Module namespace exports <a name="namespace_exports"></a>
@@ -1572,7 +1577,7 @@ import * as utils from "./utils.mjs";
 export { utils };
 ```
 
-
+<br/><br/>
 
 
 #### Проверка на null (Nullish coalescing) <a name="nullish_coalescing"></a>
@@ -1609,7 +1614,7 @@ null || "truthy value"; // => "truthy value"
 NaN || "truthy value"; // => "truthy value"
 ```
 
-
+<br/><br/>
 
 
 #### Ожидание всех промисов (Promise.allSettled) <a name="promise_allsettled "></a>
@@ -1639,7 +1644,7 @@ Promise.allSettled(promiseArray).then((result) => {
 // ]
 ```
 
-
+<br/><br/>
 
 
 #### String.matchAll <a name="string_matchall"></a>
@@ -1673,7 +1678,7 @@ for (result of iterator) {
 // ["#surprises", "#surprises", index: 23, input: "#JavaScript is full of #surprises.", groups: undefined]
 ```
 
-
+<br/><br/>
 
 
 #### Порядок выполнения for-in (for-in mechanics) <a name="for_in_mechanics"></a>
