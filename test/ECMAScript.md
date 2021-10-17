@@ -84,7 +84,7 @@
 
 ## ES6 <a name="ES6"></a>
 
-#### import/export <a name="import_export"></a>
+### import/export <a name="import_export"></a>
 
 [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/import)
 
@@ -146,7 +146,7 @@ export { import1 as name1, import2 as name2, …, nameN } from …;
 <br/><br/>
 
 
-#### Объявления переменных **let**/**const**. Блочная область видимости (Block scope variables) <a name="let_const"></a>
+### Объявления переменных **let**/**const**. Блочная область видимости (Block scope variables) <a name="let_const"></a>
 
 Проблема `var` в том, что переменная "протекает" в другие блоки кода, такие как циклы `for` или блоки условий `if`
 
@@ -231,7 +231,7 @@ test(true); // inner
 <br/><br/>
 
 
-#### Тип данных Symbol <a name="symbol"></a>
+### Тип данных Symbol <a name="symbol"></a>
 
 Symbol это уникальный и неизменяемый тип данных, представленный в ES6. Целью `Symbol` является создание уникального идентификатора, к которому нельзя получить доступ.
 
@@ -260,9 +260,9 @@ console.log(Object.getOwnPropertyNames(o)); // val
 <br/><br/>
 
 
-#### Строковые шаблоны и разделители <a name="string_template"></a>
+### Строковые шаблоны и разделители <a name="string_template"></a>
 
-##### Template Literals
+#### Template Literals
 
 ```js
 // ES5
@@ -276,7 +276,7 @@ const last = 'Mejia';
 console.log(`Your name is ${first} ${last}.`);
 ```
 
-##### Multi-line strings
+#### Multi-line strings
 
 Не нужно больше конкатенировать строки с + `\n`:
 
@@ -297,7 +297,7 @@ const template = `<ul>
 <br/><br/>
 
 
-#### Стрелочные функции  <a name="arrow_func"></a>
+### Стрелочные функции  <a name="arrow_func"></a>
 
 Стрелочные функции не имеют своего `this`
 
@@ -317,7 +317,7 @@ let addition = (a, b) => {
 <br/><br/>
 
 
-#### Параметры по умолчанию  <a name="dafault_param"></a>
+### Параметры по умолчанию  <a name="dafault_param"></a>
 
 ES6 позволяет установить параметры по умолчанию при объявлении функции. Вот простой пример:
 
@@ -376,7 +376,7 @@ point() // 0 -1 true
 <br/><br/>
 
 
-#### Расширение возможностей литералов объекта  <a name="object_literals"></a>
+### Расширение возможностей литералов объекта  <a name="object_literals"></a>
 
 ES6 позволяет объявить литералы объекта с помощью короткого синтаксиса для инициализации свойств из переменных и определения функциональных методов. Также, стандарт обеспечивает возможность вычисления свойств непосредственно в литерале объекта.
 
@@ -418,7 +418,7 @@ console.log(car);
 <br/><br/>
 
 
-#### Spread/Rest операторы  <a name="spread_rest"></a>
+### Spread/Rest операторы  <a name="spread_rest"></a>
 
 ```js
 function foo(x, y, z) {
@@ -505,7 +505,7 @@ console.log([...array1, ...array2, ...array3]);
 <br/><br/>
 
 
-#### Восьмеричный и двоичный литералы <a name="octal_binary_literals"></a>
+### Восьмеричный и двоичный литералы <a name="octal_binary_literals"></a>
 
 В ES6 появилась новая поддержка для восьмеричных и двоичных литералов.
 Добавление к началу числа `0o` или `0O` преобразует его в восьмеричную систему счисления (аналогично, `0b` или `0B` преобразует в двоичную систему счисления). 
@@ -521,7 +521,7 @@ console.log(bValue); // 2
 <br/><br/>
 
 
-#### For…of  <a name="for_of"></a>
+### For…of  <a name="for_of"></a>
 
 - `for...of` используется для перебора в цикле итерируемых объектов, например, массивов.
 
@@ -561,7 +561,7 @@ for (let symbol of/in 'слово') {
 <br/><br/>
 
 
-#### Деструктуризация (Destructuring Assignment) <a name="destructuring"></a>
+### Деструктуризация (Destructuring Assignment) <a name="destructuring"></a>
 
 Деструктуризация - это разделение массива или объекта в отдельные переменные
 
@@ -582,7 +582,7 @@ let {color, width, height, font, bg = false} = obj; // font = undefined; bg = fa
 let {color: c, width: w, height: h} = obj;
 ```
 
-##### Обмен значениями
+#### Обмен значениями
 
 ```js
 let a = 1;
@@ -591,7 +591,7 @@ let b = 2;
 [a, b] = [b, a];
 ```
 
-##### Деструктуризация и сопоставление параметров (Деструктуризация в функциях)
+#### Деструктуризация и сопоставление параметров (Деструктуризация в функциях)
 
 ```js
 const user = {firstName: 'Adrian', lastName: 'Mejia'};
@@ -603,7 +603,7 @@ function getFullName({ firstName, lastName }) {
 console.log(getFullName(user)); // Adrian Mejia
 ```
 
-##### Глубокое сопоставление
+#### Глубокое сопоставление
 
 ```js
 function settings() {
@@ -618,7 +618,7 @@ console.log(displayColor, keyboardLayout); // red querty
 <br/><br/>
 
 
-#### Промисы  <a name="promise"></a>
+### Промисы  <a name="promise"></a>
 
 В ES6 появилась встроенная поддержка промисов. Промис это объект, который ждёт выполнения асинхронной операции, после которого (т.е. после выполнения) промис принимает одно из двух состояний: fulfilled (resolved, успешное выполнение) или rejected (выполнено с ошибкой).
 
@@ -675,7 +675,7 @@ p.then(eventuallyAdd1)
 <br/><br/>
 
 
-#### Классы  <a name="class"></a>
+### Классы  <a name="class"></a>
 
 В ES6 представили новый синтаксис для классов. Здесь стоит отметить, что класс ES6 не представляет собой новую объектно-ориентированную модель наследования. Это просто синтаксический сахар для существующего в JavaScript прототипного наследования.
 
@@ -707,7 +707,7 @@ Task.loadAll(); // "Загружаем все tasks..."
 <br/><br/>
 
 
-#### Наследование (extends и super в классах)  <a name="extends"></a>
+### Наследование (extends и super в классах)  <a name="extends"></a>
 
 Посмотрим на следующий код:
 
@@ -742,9 +742,9 @@ let c = new Porsche();
 <br/><br/>
 
 
-#### Поиск в массиве ( Array.prototype.findIndex(), Array.prototype.find() ) <a name="array_find"></a>
+### Поиск в массиве ( Array.prototype.findIndex(), Array.prototype.find() ) <a name="array_find"></a>
 
-##### find
+#### find
 
 Метод **find()** возвращает значение первого найденного в массиве элемента, которое удовлетворяет условию переданному в callback функции. В противном случае возвращается **undefined**
 
@@ -753,7 +753,7 @@ let c = new Porsche();
 ['one', 'two', 'three',	'four'].find((item) => item === 'three'); // 'three'
 ```
 
-##### findIndex
+#### findIndex
 
 Метод **findIndex()** возвращает индекс в массиве, если элемент удовлетворяет условию проверяющей функции. В противном случае возвращается -1.
 
@@ -765,7 +765,7 @@ let c = new Porsche();
 <br/><br/>
 
 
-#### Map и WeakMap <a name="map_weakmap"></a>
+### Map и WeakMap <a name="map_weakmap"></a>
 
 `WeakMap` это `Map`, в котором ключи обладают неустойчивыми связями, что позволяет не мешать сборщику мусора удалять элементы `WeakMap`. Это означает, что можно не беспокоиться об утечках памяти.
 
@@ -796,7 +796,7 @@ w.has(o1); // false
 <br/><br/>
 
 
-#### Set и WeakSet <a name="set_weakset"></a>
+### Set и WeakSet <a name="set_weakset"></a>
 
 Объекты **Set** это коллекции уникальных значений. Дублированные значения игнорируются, т.к. коллекция должна содержать только уникальные значения. Значения могут быть примитивами или ссылками на объекты.
 
@@ -854,7 +854,7 @@ ws.has(window);    // false, window был удалён
 <br/><br/>
 
 
-#### Генераторы <a name="generators"></a>
+### Генераторы <a name="generators"></a>
 
 Функции-генераторы представляют собой новую особенность ES6, которая позволяет функции создавать много значений в течение некоторого периода времени, возвращая объект (называемый генератором), который может быть итерирован для выброса значений из функции по одному за раз.
 
@@ -883,7 +883,7 @@ numbers.next(); // { value: 3, done: false }
 <br/><br/>
 
 
-#### Итераторы <a name="iterators"></a>
+### Итераторы <a name="iterators"></a>
 
 Итератор обращается к элементам коллекции по одному, в то же время сохраняя память о своей текущей позиции в этой коллекции. У итератора есть метод `next()`, который возвращает следующий элемент в последовательности. Этот метод возвращает объект с двумя свойствами: done (окончен ли перебор) и value (значение).
 
@@ -910,7 +910,7 @@ itr.next(); // { value: undefined, done: true }
 
 ## ES7 <a name="ES7"></a>
 
-#### Проверка на наличие элемента в массиве. Array.prototype.includes ()  <a name="Array_prototype_includes"></a>
+### Проверка на наличие элемента в массиве. Array.prototype.includes ()  <a name="Array_prototype_includes"></a>
 
 Функция `includes()` вводит более читаемый синтаксис для проверки, содержит ли массив элемент, возвращая в зависимости от этого `true` или `false`.
 
@@ -935,7 +935,7 @@ if (['1', '2'].includes('3')) {
 <br/><br/>
 
 
-#### Оператор возведения в степень **  <a name="exponentiation"></a>
+### Оператор возведения в степень **  <a name="exponentiation"></a>
 
 Оператор возведения в степень `**` является эквивалентом `Math.pow()`, но добавлен в язык, вместо того чтобы быть функцией библиотеки.
 
@@ -949,7 +949,7 @@ Math.pow(4, 2) === 4 ** 2;
 
 ## ES8 <a name="ES8"></a>
 
-#### Object.values() <a name="object_values"></a>
+### Object.values() <a name="object_values"></a>
 
 Этот метод возвращает массив, содержащий значения собственных свойств объекта, то есть таких свойств, которые содержит сам объект, а не тех, которые доступны ему через цепочку прототипов.
 
@@ -969,7 +969,7 @@ Object.values(people); // ["Alex", "Julia"]
 <br/><br/>
 
 
-#### Object.entries() <a name="object_entries"></a>
+### Object.entries() <a name="object_entries"></a>
 
 Этот метод возвращает массив, каждый элемент которого также является массивом, содержащим, в формате `[key, value]`, ключи и значения собственных свойств объекта.
 
@@ -989,7 +989,7 @@ Object.entries(people); // [['0', 'Alex'], ['1', 'Julia']]
 <br/><br/>
 
 
-#### Завершающие запятые в параметрах функций. <a name="trailing_commas"></a>
+### Завершающие запятые в параметрах функций. <a name="trailing_commas"></a>
 
 Эта возможность позволяет оставлять запятую в конце списка параметров или аргументов, соответственно, при объявлении и при вызове функций.
 
@@ -1012,7 +1012,7 @@ doSomething(
 <br/><br/>
 
 
-#### Заполнение строк до заданной длины (String padding) <a name="string_padding"></a>
+### Заполнение строк до заданной длины (String padding) <a name="string_padding"></a>
 
 Целью заполнения строки является добавление символов в строку, чтобы она достигла определенной длины.
 
@@ -1040,7 +1040,7 @@ str.padStart(targetLength [, padString]);
 <br/><br/>
 
 
-#### Сведения о собственных свойствах объекта. Object.getOwnPropertyDescriptors() <a name="getownpropertydescriptors"></a>
+### Сведения о собственных свойствах объекта. Object.getOwnPropertyDescriptors() <a name="getownpropertydescriptors"></a>
 
 Метод возвращает сведения обо всех собственных свойствах объекта. Со свойствами объектов ассоциированы наборы атрибутов (дескрипторы). В частности, речь идёт о следующих атрибутах:
 
@@ -1117,7 +1117,7 @@ person3.name = 'x' //x
 <br/><br/>
 
 
-#### Async/Await <a name="async_await"></a>
+### Async/Await <a name="async_await"></a>
 
 В стандарте ES2017 появилась конструкция `async/await`, которую можно считать важнейшим новшеством этой версии языка.
 
@@ -1153,7 +1153,7 @@ I did something
 
 Как видно, после вызова `doSomething()` программа продолжает выполняться, после `Before` в консоль тут же выводится `After`, а после того, как пройдут три секунды, выводится `I did something`.
 
-##### Последовательный вызов асинхронных функций
+#### Последовательный вызов асинхронных функций
 
 При необходимости асинхронные функции могут формировать нечто вроде цепочек вызовов. Такие конструкции отличаются лучшей читабельностью, чем нечто подобное, основанное исключительно на промисах. Это можно видеть на следующем примере.
 
@@ -1179,7 +1179,7 @@ watchOverSomeoneWatchingSomeoneDoingSomething().then((res) => {
 <br/><br/>
 
 
-#### Разделяемая память и атомарные операции <a name="memory_and_atomic_operations"></a>
+### Разделяемая память и атомарные операции <a name="memory_and_atomic_operations"></a>
 
 
 <br/><br/><br/>
@@ -1187,7 +1187,7 @@ watchOverSomeoneWatchingSomeoneDoingSomething().then((res) => {
 
 ## ES9 <a name="ES9"></a>
 
-#### Spread/Rest для объектов (Object Rest/Spread) <a name="object_rest_spread"></a>
+### Spread/Rest для объектов (Object Rest/Spread) <a name="object_rest_spread"></a>
 
 ```js
 const { first, second, ...others } = 
@@ -1203,7 +1203,7 @@ console.log(items) //{ first: 1, second: 2, third: 3, fourth: 4, fifth: 5 }
 <br/><br/>
 
 
-#### Метод Promise.prototype.finally() <a name="promise_finally"></a>
+### Метод Promise.prototype.finally() <a name="promise_finally"></a>
 
 Если промис успешно разрешается — осуществляется вызов очередного метода `then()`. Если что-то идёт не так — вызывается метод `catch()`. Метод `finally()` позволяет выполнять некий код независимо от того, что происходило до этого.
 
@@ -1217,7 +1217,7 @@ fetch('file.json')
 <br/><br/>
 
 
-#### Асинхронные итераторы (for await of) <a name="for_await_of"></a>
+### Асинхронные итераторы (for await of) <a name="for_await_of"></a>
 
 Новая конструкция `for-await-of` позволяет вызывать асинхронные функции, возвращающие промисы, в циклах. Такие циклы ожидают разрешения промиса перед переходом к следующему шагу. Вот как это выглядит.
 
@@ -1247,7 +1247,7 @@ test1(); // 1, 2, 3
 <br/><br/>
 
 
-#### Новые функции регулярных выражений <a name="es9_regexp"></a>
+### Новые функции регулярных выражений <a name="es9_regexp"></a>
 
 [https://frontend-stuff.com/blog/es2018/#улучшения-регулярных-выражений](https://frontend-stuff.com/blog/es2018/#улучшения-регулярных-выражений)
 
@@ -1257,7 +1257,7 @@ test1(); // 1, 2, 3
 
 ## ES10 <a name="ES10"></a>
 
-#### String.trimStart() и String.trimEnd() <a name="trimstart_trimend"></a>
+### String.trimStart() и String.trimEnd() <a name="trimstart_trimend"></a>
 
 Эти два метода используются для очистки пустых символов в начале и конце строки, методы не изменяют исходную строку.
 
@@ -1270,7 +1270,7 @@ greeting.trimEnd(); // "    Hello world"
 <br/><br/>
 
 
-#### Параметры для catch. (try…catch err param) <a name="try_catch_err_param"></a>
+### Параметры для catch. (try…catch err param) <a name="try_catch_err_param"></a>
 
 В ES10 мы можем опустить круглые скобки после catch
 
@@ -1285,7 +1285,7 @@ try{
 <br/><br/>
 
 
-#### Function.prototype.toString() <a name="function_tostring"></a>
+### Function.prototype.toString() <a name="function_tostring"></a>
 
 До ES10 Function.prototype.toString() возвращал только тело функции, а не комментарии и пробелы в нем. После ES10 метод возвращает содержимое функции полностью.
 
@@ -1301,7 +1301,7 @@ name.toString(); // "function /* a comment */ name () {/*...*/}"
 <br/><br/>
 
 
-#### Свойство описания символа. (Symbol.prototype.description) <a name="symbol_description"></a>
+### Свойство описания символа. (Symbol.prototype.description) <a name="symbol_description"></a>
 
 Мы знаем, что при создании объекта Symbol мы можем передать строку как описание символа, а в ES10 мы можем получить доступ к этой строке напрямую через атрибут description.
 
@@ -1320,7 +1320,7 @@ console.log(s.description); // "test symbol"
 <br/><br/>
 
 
-#### Object.fromEntries() <a name="object_fromentries"></a>
+### Object.fromEntries() <a name="object_fromentries"></a>
 
 Этот метод противоположен методу Object.entries в ES8. Метод Object.entries используется для возврата свойств и значений объекта в массиве, а Object.fromEntries может изменить его обратно на исходный объект.
 
@@ -1358,7 +1358,7 @@ const studentObj = Object.fromEntries(students);
 <br/><br/>
 
 
-#### Array.prototype.flat() <a name="array_flat"></a>
+### Array.prototype.flat() <a name="array_flat"></a>
 
 `Array.flat()` возвращает новый массив, в котором все подмассивы были рекурсивно “подняты” на указанный уровень глубины. Вызов `Array.flat()` без каких-либо аргументов сглаживает только первый уровень глубины. Можно указать необязательный аргумент глубины или вызвать функцию последовательно.
 
@@ -1376,7 +1376,7 @@ arr.flat(Infinity); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 <br/><br/>
 
 
-#### Array.prototype.flatMap() <a name="array_flatmap"></a>
+### Array.prototype.flatMap() <a name="array_flatmap"></a>
 
 Метод `flatMap()` идентичен методу `map` ES6, но в то же время сглаживает первый уровень глубины массива. Метод `flatMap()` сначала перебирает каждый элемент с помощью функции `map()`, а затем выравнивает результат через `flat()` в новый массив. `flatMap()` весьма полезен, так как объединение обоих методов в один - более эффективно.
 
@@ -1409,7 +1409,7 @@ const ingredientsList = sandwich.flatMap((item) => item.split(" and "));
 <br/><br/>
 
 
-#### Хорошо сформированный JSON.stringify() <a name="es10_json_stringify"></a>
+### Хорошо сформированный JSON.stringify() <a name="es10_json_stringify"></a>
 
 Исправленный вывод `JSON.stringify()` при обработке суррогатных кодовых точек UTF-8 (от U+D800 до U+DFFF).
 
@@ -1431,7 +1431,7 @@ JSON.stringify('\uD800');
 
 ## ES11 <a name="ES11"></a>
 
-#### Динамический импорт <a name="dynamic_import"></a>
+### Динамический импорт <a name="dynamic_import"></a>
 
 “Динамический импорт” в JavaScript даёт возможность динамически импортировать файлы JS в виде модулей. Так же, как мы делаем это с помощью Webpack и Babel на данный момент.
 
@@ -1474,7 +1474,7 @@ load();
 <br/><br/>
 
 
-#### BigInt <a name="es11_bigint"></a>
+### BigInt <a name="es11_bigint"></a>
 
 Одна из самых ожидаемых функций в JavaScript, и она наконец-то здесь. `BigInt` это встроенный объект, который предоставляет способ представлять целые числа больше `pow(2, 53) - 1`, наибольшего числа, которое JavaScript может надежно представить с Number примитивом.
 
@@ -1502,7 +1502,7 @@ typeof 10n; // "bigint";
 <br/><br/>
 
 
-#### globalThis <a name="globalthis"></a>
+### globalThis <a name="globalthis"></a>
 
 В JavaScript всегда есть один большой объект контекста, который содержит всё. Традиционно в браузерах это `window`. Но если попытаешься получить к нему доступ в Node, то получишь ошибку. В Node нет глобального объекта `window`; вместо этого есть объект `global`. С другой стороны, в WebWorkers нет доступа к `window`, но вместо этого есть `self`.
 
@@ -1533,7 +1533,7 @@ globalThis === window; // true
 <br/><br/>
 
 
-#### Оператор опциональной последовательности (Optional chaining) <a name="optional_chaining"></a>
+### Оператор опциональной последовательности (Optional chaining) <a name="optional_chaining"></a>
 
 Ещё не официально [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 
@@ -1556,7 +1556,7 @@ const colorName = car?.color?.name;
 <br/><br/>
 
 
-#### Module namespace exports <a name="namespace_exports"></a>
+### Module namespace exports <a name="namespace_exports"></a>
 
 В JavaScript модулях уже можно было использовать следующий синтаксис:
 
@@ -1580,7 +1580,7 @@ export { utils };
 <br/><br/>
 
 
-#### Проверка на null (Nullish coalescing) <a name="nullish_coalescing"></a>
+### Проверка на null (Nullish coalescing) <a name="nullish_coalescing"></a>
 
 **Nullish coalescing** - добавляет возможность действительно проверять **нулевые** (nullish) значения вместо **ложных** (falsey).
 
@@ -1617,7 +1617,7 @@ NaN || "truthy value"; // => "truthy value"
 <br/><br/>
 
 
-#### Ожидание всех промисов (Promise.allSettled) <a name="promise_allsettled "></a>
+### Ожидание всех промисов (Promise.allSettled) <a name="promise_allsettled "></a>
 
 Promise.all выполнится успешно (resolves) только тогда, когда все переданные промисы были выполнены успешно. И выполнялся с ошибкой (rejects), если хотя бы один из промисов был отклонен, в то время как другие ещё могли быть в статусе ожидания (pending).
 
@@ -1647,7 +1647,7 @@ Promise.allSettled(promiseArray).then((result) => {
 <br/><br/>
 
 
-#### String.matchAll <a name="string_matchall"></a>
+### String.matchAll <a name="string_matchall"></a>
 
 `matchAll` - это новый метод, добавленный к прототипу `String`, который связан с регулярными выражениями. Он возвращает итератор, который в свою очередь возвращает все совпадающие группы одну за другой.
 
@@ -1681,6 +1681,6 @@ for (result of iterator) {
 <br/><br/>
 
 
-#### Порядок выполнения for-in (for-in mechanics) <a name="for_in_mechanics"></a>
+### Порядок выполнения for-in (for-in mechanics) <a name="for_in_mechanics"></a>
 
 Спецификация ECMA не указывала, в каком порядке `for (x in y)` должно выполняться. Несмотря на то, что браузеры реализовали согласованный порядок самостоятельно, это официально стандартизировано в ES2020.
